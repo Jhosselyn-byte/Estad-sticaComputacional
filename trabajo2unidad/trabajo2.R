@@ -1,7 +1,5 @@
 # ==============================================================================
 # META-ANÁLISIS: EFECTO FIJO PROMEDIO (EFP)
-# Universidad Nacional del Altiplano - Puno, Perú
-# Versión Profesional Negro y Verde - Teoría Ampliada
 # ==============================================================================
 
 # ----------------------- LIBRERÍAS REQUERIDAS ---------------------------------
@@ -3088,5 +3086,6 @@ server <- function(input, output, session) {
 # ==============================================================================
 # EJECUTAR LA APLICACIÓN
 # ==============================================================================
+
 
 shinyApp(ui = ui, server = server)
